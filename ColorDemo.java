@@ -18,6 +18,7 @@ public class ColorDemo {
 		Color white  = new Color(255, 255, 255);
 		Color red    = new Color(255, 0, 0);
 		Color yellow = new Color(255, 255, 0);
+		Color newColor = new Color(50, 100, 150);
 
         // To access the RGB values of a Color object,
         // we use three "get" nethods. For example: 
@@ -28,6 +29,8 @@ public class ColorDemo {
 
         // Tests the print method: 
 		System.out.print("Red = "); print(red);
+		System.out.print("newColor = "); print(newColor);
+
 		System.out.println();
 
         // Constructs an array of Color objects, and prints the array elements.
